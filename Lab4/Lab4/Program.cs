@@ -22,10 +22,10 @@ namespace Lab4
             //C. it is better to use Do... While in cases where we want the loop to execute at least once.
             // for instance when we try to access a resource that would need a retry, because do...while will excute the loop at least once before it checks the condition. 
 
-            for (int i = 1; i <= 100; ++ i)
+            for (int i = 1; i <= 100; ++i)
             {
-                Console.WriteLine("{0} ",  i);
-                if (( i % 2) == 0)
+                Console.WriteLine("{0} ", i);
+                if ((i % 2) == 0)
                 {
                     Console.WriteLine(" i is even");
                 }
@@ -54,8 +54,8 @@ namespace Lab4
                 if (intTemp < 90)
                     Console.WriteLine("Fish");
             }
-            { 
-            int a = 10;
+            {
+                int a = 10;
                 while (a <= 20)
                 {
                     Console.WriteLine("value of a: {0}", a);
@@ -72,3 +72,6 @@ namespace Lab4
         }
     }
 }
+        
+    
+
